@@ -20,3 +20,6 @@ setTimeout(() => {
     Deno.stdout.writeSync(bytes(`\r\x1b[K`));
     Deno.stdout.writeSync(bytes(`Four`));
 }, 1000 * 4);
+
+
+console.log("Deno.noColor:", Deno.noColor);
